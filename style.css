@@ -61,4 +61,40 @@ a{
     font-size: 0.8rem;
     font-weight: 600;
 }
+ /* header content  design */
+
+  section.hedar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-imges {
+  width: 220px;
+  height: 220px;
+  background-color: rgb(141, 212, 141);
+  border-radius: 50%;
+  /* display: flex; */
+  /* align-items: center; */
+  position: relative;
+}
+img.profile-img {
+  width: 164px;
+  margin: 0 auto;
+  /* line-height: 100rem; */
+  position: absolute;
+  top: 5%;
+  left: 13%;
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  background-color: rgb(141, 212, 141);
+  padding: 0.75rem 1.9rem;
+  border-radius: 30px;
+  color: #ffffff;
+}
+ 
 
