@@ -112,6 +112,9 @@ img.profile-img {
   font-size: 1rem;
     font-weight: 600;
 }
+p.icon-title {
+  text-align: center;
+}
 /* skills section end  */
 
 /* project section start  */
@@ -127,6 +130,7 @@ img.profile-img {
   height: 400px;
   display: flex;
   flex-direction: column;
+  color: white;
   
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
 }
@@ -151,4 +155,30 @@ img.profile-img {
 }
 .project-link span{
   margin-left: 3px;
+}
+/* project section end  */
+
+/* contact section start  */
+section#contact {
+  margin-top: 50px;
+}
+.contact-option{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.email{
+  padding: 5px;
+}
+.other-link {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  font-size: 1.2rem;
+}
+.all-links a {
+  padding: 10px;
 }
